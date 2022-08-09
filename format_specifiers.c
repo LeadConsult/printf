@@ -4,7 +4,7 @@
  * * print_char - Prints character
  * * @list: list of arguments
  * * Return: the amount of characters printed
- * */
+ */
 int print_char(va_list list)
 {
 	_putchar(va_arg(list, int));
@@ -15,7 +15,7 @@ int print_char(va_list list)
  * * print_string - Prints a string
  * * @list: list of arguments
  * * Return:  the amount of characters printed.
- * */
+ */
 int print_string(va_list list)
 {
 	int i;
@@ -33,7 +33,7 @@ int print_string(va_list list)
  * * print_percent - Prints a percent symbol
  * * @list: list of arguments
  * * Return:  the amount of characters printed.
- * */
+ */
 int print_percent(__attribute__((unused))va_list list)
 {
 	_putchar('%');
@@ -44,7 +44,7 @@ int print_percent(__attribute__((unused))va_list list)
  * * print_integer - Prints an integer
  * * @list: list of arguments
  * * Return:  the amount of characters printed.
- * */
+ */
 int print_integer(va_list list)
 {
 	int num_length;
@@ -57,7 +57,7 @@ int print_integer(va_list list)
  * * unsigned_integer - Prints Unsigned integers
  * * @list: List of all of the arguments
  * * Return: a count of the numbers
- * */
+ */
 int unsigned_integer(va_list list)
 {
 	unsigned int num;
