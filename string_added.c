@@ -2,7 +2,7 @@
 
 
 /**
- * * write_base - sends characters to be written on standard output
+ * * write_base - sends character to be written on standard output
  * * @string: Strings to parse
  */
 void write_base(char *string)
