@@ -5,7 +5,8 @@
  * * to print a formated string
  * * @format: A string containing all the desired characters
  * * Return: A total count of the characters printed.
- * */
+ */
+
 int _printf(const char *format, ...)
 {
 	int printed_chars;
