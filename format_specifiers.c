@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * * print_char - Prints character
+ * * print_char - Prints characters
  * * @list: list of arguments
  * * Return: the amount of characters printed
  */
