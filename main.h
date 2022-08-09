@@ -10,7 +10,7 @@
  * *
  * * @sym: The operator
  * * @f: The function associated
- * */
+ */
 struct convert
 {
 	char *sym;
